@@ -127,7 +127,7 @@ var weatherInCities: [Weather] = []
 
 // запускаємо цикл для заповнення пустого масиву weatherInCities
 // інформацією про погоду для кожної назви міста, вказаних у масиві cityNames
-for index in 0 ..< 7 {
+for index in 1 ..< 4 {
     let weatherInfo = Weather(
         city: cityNames[index], // записуємо назву міста
         temp: Double(arc4random() % 30) + kelvinZero, // генеруємо випадкове значення температури у Кельвінах
